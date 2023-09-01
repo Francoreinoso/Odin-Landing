@@ -1,0 +1,155 @@
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-text h2 {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color:#F9FAF8;
+}
+
+.hero-text p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray
+}
+
+.header, .hero-text, .footer {
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 40px;
+}
+
+.waifu {
+    max-width: 200px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+button.first, button.second {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+.subtitulo {
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+.placeholder {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.text-left {
+    padding-right: 15px;
+    width: 400px;
+}
+img {
+    border-radius: 8px;
+    border: 5px solid lightblue
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.quote .inspirational-quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    text-align: left;
+    width: 500px;
+}
+
+.quote p{
+    width: 450px;
+    align-self: center;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.anuncio {
+    margin: 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.anuncio .text-final {
+    text-align: left;
+    color: white;
+}
+
+button.second {
+    border: 1px solid white;
+}
